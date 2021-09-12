@@ -1,8 +1,84 @@
 *{
     padding: 0px;
-    margin: 0px;;
+    margin: 0px;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /*se establece el color de fondo del contenedor padre*/
+    /*background-color: aquamarine;*/
+}
+.contenedor_1{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 30%;
+    height: 100vh; 
+}
+#btn_irRegistro{
+    display: flex;
+    margin: auto;
+    position: absolute;
+    background-color: #f3f3f3;
+    padding: 5px 15px;
+    bottom: 0% !important;
+}
+.contenedor_2{
+    display: block;
+    margin: 20px auto;
+    width: 65%;
+    height: 100vh;
+    /*se establece el color de fondo del contenedor hijo*/
+    /*background-color:crimson;*/
+}
+#navbar_logo{
+    display:block;
+    margin: auto;
+    width: 250px;
+    height: 80px;
+}
+.caja{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.card_1{
+    display: inline-block;
+    margin:  0px auto;
+    width: 45%;
+    height: 300px;
+    padding: 50px;
 }
 h1{
-    color:#230070;
+    color:royalblue;
     text-align: center;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px 70px;  
+}
+a{
+    text-decoration: none;
+    color:royalblue;
+    font-size: 1.2em;
+}
+a:hover{
+    color: crimson;
+}
+h2{
+    text-align: center;
+    color: royalblue;
+    padding: 20px 0px;
+    font-size: 1.8em;
+}
+p{
+    text-align: justify;
+    font-size: 1.2em;
+    margin: auto;
+}
+#icon_card{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
 }
