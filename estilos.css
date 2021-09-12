@@ -17,12 +17,13 @@
     height: 100vh; 
 }
 #btn_irRegistro{
-    display: flex;
-    margin: auto;
+    display: block;
     position: absolute;
     background-color: #f3f3f3;
+    margin: 0px 50px;
     padding: 5px 15px;
     bottom: 0% !important;
+    
 }
 .contenedor_2{
     display: block;
@@ -51,7 +52,7 @@
     padding: 50px;
 }
 h1{
-    color:royalblue;
+    color:#230070;
     text-align: center;
     display: block;
     text-align: center;
@@ -60,7 +61,7 @@ h1{
 }
 a{
     text-decoration: none;
-    color:royalblue;
+    color:#230070;
     font-size: 1.2em;
 }
 a:hover{
@@ -68,7 +69,7 @@ a:hover{
 }
 h2{
     text-align: center;
-    color: royalblue;
+    color: #230070;
     padding: 20px 0px;
     font-size: 1.8em;
 }
