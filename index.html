@@ -4,46 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;900&family=Vollkorn:wght@500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet" type="text/css">
-    <title>Sprints_A</title>
+    <script src="https://kit.fontawesome.com/74c1f188cf.js" crossorigin="anonymous"></script>
+    <title>Sprints_1 - MINTIC 2021</title>
 </head>
 <body>
-    <section class="contenedor"><!--Contenedor principal de la página-->
-        <header class="contenedor_1"><!--esta etiqueta muestra el encabezado de la pagina englobando el logo, la navegacion y el boton de registro-->
+    <div class="contenedor"><!--Contenedor principal de la página-->
+        <header class="box-header"><!--esta etiqueta muestra el encabezado de la pagina englobando el logo, la navegacion y el boton de registro-->
+            <img id="navbar_logo" src="/logo.jpg" alt="logotipo interfaz grafica "><!-- imagen representativa o logo de la pagina-->
             <nav id="landing_navbar"><!-- etiqueta de navegacion-->
-                <img id="navbar_logo" src="logo_navbar.png" alt="logotipo interfaz grafica "><!-- imagen representativa o logo de la pagina-->
-                <button id="btn_irRegistro"><a href="registro.html" id="link_registro">Registrarse</a></button><!--boton registrarse perteneciente a la navegacion -->
+                <ul>
+                    <div class="box-icon"><i class="fas fa-address-card"></i><li class="link"><a href="#">Acerca de</a></li></div>
+                    <div class="box-icon"><i class="fas fa-star"></i><li class="link"><a href="#">Accesorios</a></li></div>
+                    <div class="box-icon"><i class="fas fa-tshirt"></i><li class="link"><a href="#">Para Hombres</a></li></div>
+                    <div class="box-icon"><i class="fas fa-shopping-bag"></i><li class="link"><a href="#">Para Mujeres</a></li></div>
+                </ul>
             </nav>
+            <button id="btn_irRegistro"><a href="registro.html" id="link_registro">Registrarse</a></button><!--boton registrarse perteneciente a la navegacion -->
         </header>
-        <section class="contenedor_2"><!--seccion contenedor lateral derecho -->
-            <h1>Nombre del proyecto</h1><!-- titulo principal del proyecto-->
-            <!--descripcion generalizada del proyecto -->
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consectetur
-                doloribus pariatur quibusdam enim reprehenderit tempora, mollitia magni provident
-                voluptates hic blanditiis, molestias laboriosam error voluptate inventore nobis ratione corporis.</p>
+
+        <section class="box-content"><!--seccion contenedor lateral derecho -->
+            <div class="slider">
+                <i class="fas fa-chevron-circle-left"></i>
+                <img src="./images/slider-2.jpg" />
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
             <section class="caja"><!--seccion que contendra las tarjetas informativas -->
-                <article class="card_1"><!--esta etiqueta permite definir la informacion de la tarjeta -->
-                    <header class="card"><!--encabezado de las tarjetas informativas -->
-                        <img id="icon_card" src="img_item_1.png" alt="logotipo interfaz grafica 1"><!--imagen o icono de la tarjeta -->
-                        <h2>titulo tarjeta 1</h2><!--titulo de tarjeta -->
-                        <!--contenido de la tarjeta -->
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel cumque aspernatur
-                             id quae debitis? Enim ad modi incidunt. Laboriosam reprehenderit dolorum dolores
-                              blanditiis, sit amet pariatur. Voluptate est impedit nisi.</p>    
-                    </header>   
-                </article> 
-                <article class="card_1"><!--esta etiqueta permite definir la informacion de la tarjeta -->
-                    <header class="card"><!--encabezado de las tarjetas informativas -->
-                        <img id="icon_card" src="img_item_2.png" alt="logotipo interfaz grafica 2"><!--imagen o icono de la tarjeta -->
-                        <h2>titulo tarjeta 2</h2><!--titulo de tarjeta -->
-                        <!--contenido de la tarjeta -->
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel cumque aspernatur id quae
-                             debitis? Enim ad modi incidunt. Laboriosam reprehenderit dolorum dolores blanditiis, 
-                             sit amet pariatur. Voluptate est impedit nisi.</p>    
-                    </header>   
-                </article> 
+                <article class="card"><!--esta etiqueta permite definir la informacion de la tarjeta --> 
+                    <img class="categoria" src="./images/1_thumb.jpg"/>
+                    <div class="card__content">
+                        <h3>Accesorios</h3>
+                        <span><a class="__span" href="#">ver todo</a></span>
+                    </div>
+                </article>
+               <!-- //=============================================================//-->
+                <article class="card"><!--esta etiqueta permite definir la informacion de la tarjeta --> 
+                    <img class="categoria" src="./images/2_thumb.jpg"/>
+                    <div class="card__content">
+                        <h3>Para Mujer</h3>
+                        <span><a class="__span" href="#">ver todo</a></span>
+                    </div>
+                </article>
+                 <!-- //=============================================================//-->
+                <article class="card"><!--esta etiqueta permite definir la informacion de la tarjeta --> 
+                    <img class="categoria" src="./images/3_thumb.jpg"/>
+                    <div class="card__content">
+                        <h3>Zapatos</h3>
+                        <span><a class="__span" href="#">ver todo</a></span>
+                    </div>
+                </article>
+                <!-- //=============================================================//-->
+                <article class="card"><!--esta etiqueta permite definir la informacion de la tarjeta --> 
+                    <img class="categoria" src="./images/4_thumb.jpg"/>
+                    <div class="card__content">
+                        <h3>Belleza</h3>
+                        <span><a class="__span" href="#">ver todo</a></span>
+                    </div>
+                </article>
+                <!-- //=============================================================//-->
+            </section>
+            <section class="section__moda">
+                <!--================================-->
+                <div class="card__moda_1">
+                    <p>Descubre las tendencias</p>
+                    <h3>Moda de Hombres</h3>
+                    <button class="btn-compra"><a class="btn-a" href="#" >Comprar ahora</a></button>
+                </div>
+                <!--================================-->
+                <div class="card__moda_2">
+                    <p>15% de Descuento</p>
+                    <h3>Estilo de Mujer</h3>
+                    <button class="btn-compra"><a class="btn-a" href="#" >Comprar ahora</a></button>
+                </div>
+                <!--================================-->
+                <div class="card__moda_3">
+                    <p>10% de Descuento</p>
+                    <h3>Última colección de Relojes</h3>
+                    <button class="btn-compra"><a class="btn-a" href="#" >Comprar ahora</a></button>
+                </div>
             </section>
         </section>
-    </section>   
+    </div>   
 </body>
 </html>
