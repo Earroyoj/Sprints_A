@@ -234,7 +234,7 @@ p {
 
 .fa-chevron-circle-left {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 0%;
   padding-left: 20px;
   color: #E26021;
@@ -243,7 +243,7 @@ p {
 
 .fa-chevron-circle-right {
   position: absolute;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 80%;
   padding-right: 20px;
   color: #E26021;
