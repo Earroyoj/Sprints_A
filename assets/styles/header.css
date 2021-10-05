@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info {
+  width: 100%;
+  height: 40px;
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #DFE7F2;
+  color: #212736;
+}
+
+.span_info {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5%;
+  background-color: #212736;
+}
+
+.logo {
+  width: 15%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.header__nav {
+  width: 75%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1rem;
+}
+
+.header__nav-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 2%;
+  color: #DFE7F2;
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.header__nav-a {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.header__nav-a:visited {
+  color: #E0B797;
+}
+
+.header__nav-a:active {
+  color: #E0B797;
+}
+
+.header__nav-li:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #E26021;
+}
+
+.header__nav-li:hover .header__nav-a {
+  color: #E26021;
+}
+
+.header__btn-registrarse {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: auto;
+  background-color: #E26021;
+  color: #DFE7F2;
+  font-size: .9rem;
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.header__btn--a {
+  padding: 12px 40px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=header.css.map */

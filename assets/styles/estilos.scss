@@ -1,0 +1,195 @@
+@import './variables.scss';
+@import './header.scss';
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+//======caja de imagenes slider=======//
+
+.box__slider{
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.slider__img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+
+}
+.fa-chevron-left{
+    color: $enfasis;
+    padding-left: 2%;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+}
+.fa-chevron-right{
+    color: $enfasis;
+    padding-right: 2%;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+//=======fin caja slider=======//
+.box__cta{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+}
+.box__category{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+.content__category{
+    width:20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box__category--item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.promo{
+    text-align:center;
+}
+.a__category{
+    color: $enfasis;
+    cursor: pointer;
+    text-decoration: none;
+}
+.img__category{
+    border-radius: 50%;
+    width: 35%;
+    height: auto;
+}
+
+
+.box__promo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box__promo--img{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+.box__promo_content{
+    display: flex;
+    position: relative;
+    margin: 2%;
+}
+
+.box__form{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box__form--content{
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+   // background-color: $light;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form_registro_usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__btn-registro{
+    width: 100%;
+    border:none;
+    background-color: $color-primary;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+.header__btn-registro:hover{
+    background-color: $enfasis;
+}
+label{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border:none;
+    padding: 5px 10px;
+    border-bottom: 1px solid $enfasis;
+    outline: none;
+    outline-color: $enfasis;
+}
+h2{
+    color: $color-primary;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+p{
+    color: $color-primary;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.p__descripcion{
+    padding: 0 5%;
+
+}
+.seccion__container{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.seccion__container-card{
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.card__product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 2% 2%;
+}
+.img__seccion{
+    width: 100%;
+}

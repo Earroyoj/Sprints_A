@@ -1,0 +1,120 @@
+@import 'variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-family:'Heebo', sans-serif;
+    font-size: 16px;
+}
+body{
+    display: flex;
+}
+
+// ========CAJA INFORMATIVA =============//
+.info{
+    width: 100%;
+    height: 40px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light;
+    color: $color-primary;
+}
+.span_info{
+    font-size: 1rem;
+    font-weight: 400;
+    padding:0 10px;
+}
+// ======== FIN CAJA INFORMATIVA =============//
+
+
+
+
+
+// ========CAJA HEADER =============//
+
+.header__content{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color:$color-primary;  
+}
+.logo{
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
+}
+
+// ========NAVEGACION =============//
+
+.header__nav{
+    width: 75%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.header__nav-li{
+    //width: 100%;
+    display: flex;
+    padding: 0 2%;
+    color: $light;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
+.header__nav-a{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.header__nav-a:visited{
+    color: $color-secundary;
+}
+.header__nav-a:active{
+    color: $color-secundary;
+}
+
+.header__nav-li:hover{
+    transition: all 0.3s ease;
+    color: $enfasis;
+    .header__nav-a{
+        color: $enfasis;
+    }
+}
+// ========BOTON DE CONTACTO =============//
+.header__btn-registrarse{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding:auto;
+    background-color: $enfasis;
+    color: $light;
+    font-size: .9rem;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+.header__btn--a{
+    padding: 12px 40px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 1rem;
+   
+}
+
+// ========FIN CAJA HEADER =============//
+
+
+
+
